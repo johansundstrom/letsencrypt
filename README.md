@@ -1,5 +1,6 @@
 # Let's Encrypt
-Min inställning för Let's Encrypt
+
+Min inställningar för att erhålla gratis SSL-certifikat från Let's Encrypt i Home Assistant
 
 ## Inställningar i router
 
