@@ -1,6 +1,21 @@
 # Let's Encrypt
 Min inställning för Let's Encrypt
 
+## Inställningar i router
+
+## Simply DNS Zone
+
+| Type | Hostname | Value | TTL |
+| --- | --- | --- | --- |
+| A | domain.com | wan-ip | 3600 |
+
+Port forwarding
+
+| Service Name | External Port | Internal Port | Internal Address | Protocol |
+| --- | --- | --- | --- | --- |
+| V-Hassio | 80 | 80 | 192.168.50.80 | TCP |
+| V-SSL | 443 | 443 | 192.168.50.80 | TCP |
+
 ## Add-on (Hassio) konfigurering
 
 ```yaml
@@ -16,18 +31,3 @@ domains:
   - hassio.wwwwwww.www
 verbose: true
 ```
-
-## Inställningar i router
-
-Port forwarding
-
-| Service Name | External Port | Internal Port | Internal Address | Protocol |
-| --- | --- | --- | --- | --- |
-| V-Hassio | 80 | 80 | 192.168.50.80 | TCP |
-| V-SSL | 443 | 443 | 192.168.50.80 | TCP |
-
-## Simply DNS Zone
-
-| Type | Hostname | Value | TTL |
-| --- | --- | --- | --- |
-| A | domain.com | wan-ip | 3600 |
