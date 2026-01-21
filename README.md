@@ -17,7 +17,7 @@ Port forwarding
 | V-Hassio | 80 | 80 | 192.168.50.80 | TCP |
 | V-SSL | 443 | 443 | 192.168.50.80 | TCP |
 
-## Add-on (Hassio) konfigurering
+## Hassio Letsencrypt Add-on konfig
 
 ```yaml
 keyfile: privkey.pem
