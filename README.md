@@ -2,15 +2,13 @@
 
 Min inställningar för att erhålla gratis SSL-certifikat från Let's Encrypt i Home Assistant
 
-## Inställningar i router
-
 ## Simply DNS Zone
 
 | Type | Hostname | Value | TTL |
 | --- | --- | --- | --- |
 | A | domain.com | wan-ip | 3600 |
 
-Port forwarding
+## Port forwarding i router
 
 | Service Name | External Port | Internal Port | Internal Address | Protocol |
 | --- | --- | --- | --- | --- |
