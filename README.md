@@ -4,9 +4,9 @@ Min inställningar för att erhålla gratis SSL-certifikat från Let's Encrypt i
 
 ## Simply DNS Zone
 
-| Type | Hostname | Value | TTL |
-| --- | --- | --- | --- |
-| A | domain.com | wan-ip | 3600 |
+| Type | Hostname | Name | Value | TTL |
+| --- | --- | --- | --- | --- |
+| A | domain.com | @ | wan-ip | 3600 |
 
 ## Port forwarding i router
 
