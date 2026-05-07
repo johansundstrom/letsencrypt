@@ -1,5 +1,9 @@
 # Let's Encrypt
 
+![GitHub last commit](https://img.shields.io/github/last-commit/johansundstrom/letsencrypt?style=plastic&logoSize=auto&color=green)
+![Static Badge](https://img.shields.io/badge/Status-finshed-green)
+
+
 Min inställningar för att erhålla gratis SSL-certifikat från Let's Encrypt i Home Assistant
 
 ## Simply DNS Zone
