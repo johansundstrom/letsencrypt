@@ -4,7 +4,7 @@
 ![Static Badge](https://img.shields.io/badge/Status-finshed-green)
 
 
-Min inställningar för att erhålla gratis SSL-certifikat från Let's Encrypt i Home Assistant
+Mina inställningar för att erhålla gratis SSL-certifikat från Let's Encrypt i Home Assistant
 
 ## Simply DNS Zone
 
